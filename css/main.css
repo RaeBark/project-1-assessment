@@ -1,0 +1,44 @@
+
+*, html {
+    box-sizing: border-box;
+    outline: none;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+h1, section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 65px;
+}
+ 
+input {
+    text-align: center;
+    width: 125px;
+    border: 3px solid #A9A9A9;
+}
+
+button {
+    background-color: #A9A9A9;
+    width: 80px;
+    color: #FFFFFF;
+}
+
+button, input {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 45px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color:  #A9A9A9;
+}
